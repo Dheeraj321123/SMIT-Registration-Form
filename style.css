@@ -1,0 +1,226 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.img{
+    justify-content: center;
+    display: flex;
+    height: 68px;
+    padding: 5px 0px;
+}
+
+.socialicon{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 150px;
+    margin: 20px 200px;
+    
+
+}
+.socialicon h1{
+    font-size: 30px;
+}
+.socialicon a img {
+    margin: 5px 5px;
+    height: 30px;
+    width: 30px;
+    
+}
+.socialicon a{
+    text-decoration: none;
+}
+
+.btn1 {
+    border-radius: 15px;
+    padding: 5px 7px;
+    border: 1px solid rgb(74, 55, 241);
+    background-color: transparent;
+    color: rgb(74, 55, 241);
+    font-size: 13px;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: rgb(74, 55, 241);
+    border: 1px solid black;
+}
+.div4{
+    text-align: center;
+    margin: 30px 0%;
+    opacity: 70%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(220, 223, 222, 0.5);
+    border-radius: 4px;
+    margin: 0px 499px;
+    
+    
+    
+}
+
+.btn div button{
+    border: none;
+    background-color: transparent;
+    
+    padding: 0px 10px;
+    
+
+}
+.btn .Reg button a{
+    color:rgb(11, 139, 67);
+    
+}
+.btn div button a{
+    text-decoration: none;
+    color: blue;
+    
+}
+.btn .idcard button a{
+    color:rgb(11, 139, 67) ;
+}
+.btn .result button a{
+    color:rgb(11, 139, 67) ;
+}
+        /* RESULT PAGE CSS*/
+
+
+.searchresult{
+    margin: 20px 470px;
+}
+
+.rollnumber legend{
+    color:rgb(106, 114, 255) ;
+}
+.searchresult .rollnumber input{
+    width: 100%;
+    height: 30px;
+    padding: 0px 20px;
+    border: 1px solid rgb(106, 114, 255);
+    border-radius: 3px;
+
+}
+
+.searchresult .rollnumber input:hover{
+    border: 1px solid rgb(11, 139, 67) ;
+    
+}
+
+
+.searchbtn button{
+    width: 112%;
+    background-color: rgb(106, 114, 255);
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+    color: white;
+    margin: 5px 0px;
+}
+        /* DOWNLOAD PAGE CSS */
+.DownloadID{
+    margin: 20px 470px;
+}
+
+.DownloadID .CNIC legend{
+    color: rgb(106, 114, 255);
+    width: 113%;
+    margin: 5px 0px;
+}
+.DownloadID .CNIC input{
+    width: 100%;
+    height: 30px;
+    padding: 0px 20px;
+    border: 1px solid rgb(106, 114, 255);
+    border-radius: 3px;
+
+}
+
+.submitbtn button{
+    width: 112%;
+    background-color: rgb(106, 114, 255);
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+    color: white;
+    margin: 5px 0px;
+
+}
+
+/* REGISTRATION PAGE CSS */
+
+
+
+.t1{
+    display: flex;
+    margin: 25px 200px;
+    
+
+    
+}
+
+.city select{
+    width: 100%;
+    height: 50px;
+    margin-right: 300px;
+    border-color: rgb(106, 114, 255);
+    border-radius: 3px;
+    
+    
+}
+.t1 legend{
+    color:rgb(106, 114, 255) ;
+}
+
+.course legend{
+    margin-left: 20px;
+    
+}
+.course select {
+    width: 300%;
+    height: 50px;
+    margin-left: 20px;
+    border-color: rgb(106, 114, 255);
+    border-radius: 3px;
+}
+
+.Campus select{
+    width: 94%;
+    height: 50px;
+    margin-right: 285px;
+    border-color: rgb(106, 114, 255);
+    border-radius: 3px;
+
+}
+.timing select{
+    width: 203%;
+    height: 50px;
+    border-color: rgb(106, 114, 255);
+    border-radius: 3px;
+
+}
+.Name input{
+    width: 88%;
+    height: 50px;
+    margin-right: 24px;
+    border-color: rgb(106, 114, 255);
+    border-radius: 3px;
+    border: 1px solid rgb(106, 114, 255);
+    padding: 0px 5px;
+}
+.Fname input{
+    width: 230%;
+    height: 50px;
+    border-color: rgb(106, 114, 255);
+    border-radius: 3px;
+    border: 1px solid rgb(106, 114, 255);
+    padding: 0px 5px;
+}
+
+
+
+
+
