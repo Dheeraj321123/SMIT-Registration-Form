@@ -57,7 +57,7 @@
     justify-content: center;
     background-color: rgba(220, 223, 222, 0.5);
     border-radius: 4px;
-    margin: 0px 499px;
+    margin: 0px 490px;
     
     
     
@@ -164,7 +164,7 @@
 
 .city select{
     width: 100%;
-    height: 50px;
+    height: 45px;
     margin-right: 300px;
     border-color: rgb(106, 114, 255);
     border-radius: 3px;
@@ -181,7 +181,7 @@
 }
 .course select {
     width: 300%;
-    height: 50px;
+    height: 45px;
     margin-left: 20px;
     border-color: rgb(106, 114, 255);
     border-radius: 3px;
@@ -189,7 +189,7 @@
 
 .Campus select{
     width: 94%;
-    height: 50px;
+    height: 45px;
     margin-right: 285px;
     border-color: rgb(106, 114, 255);
     border-radius: 3px;
@@ -197,30 +197,181 @@
 }
 .timing select{
     width: 203%;
-    height: 50px;
+    height: 45px;
     border-color: rgb(106, 114, 255);
     border-radius: 3px;
 
 }
-.Name input{
-    width: 88%;
-    height: 50px;
-    margin-right: 24px;
-    border-color: rgb(106, 114, 255);
-    border-radius: 3px;
+.Namefeild{
+    display: flex;
+    margin: 10px 200px;
+    
+}
+.input input{
+    width: 217%;
+    height: 45px;
     border: 1px solid rgb(106, 114, 255);
+    border-radius: 2px;
+    padding: 0px 5px;
+    
+}
+.input2 input{
+    margin: 0px 238px;
+    width: 64%;
+    height: 45px;
+    border: 1px solid rgb(106, 114, 255);
+    border-radius: 2px;
+    padding: 0px 5px;
+    
+}
+
+.input2 legend{
+    margin: 0px 240px;
+    color: rgb(106, 114, 255);
+}
+.input legend{
+    color: rgb(106, 114, 255);
+
+}
+.Data{
+    display: flex;
+    margin: 10px 200px;
+}
+.email input{
+    width: 217%;
+    height: 45px;
+    border: 1px solid rgb(106, 114, 255);
+    border-radius: 2px;
     padding: 0px 5px;
 }
-.Fname input{
-    width: 230%;
-    height: 50px;
-    border-color: rgb(106, 114, 255);
-    border-radius: 3px;
+.phone input{
+    margin: 0px 238px;
+    width: 64%;
+    height: 45px;
     border: 1px solid rgb(106, 114, 255);
+    border-radius: 2px;
     padding: 0px 5px;
+}
+.email legend{
+    color: rgb(106, 114, 255);
+}
+
+.phone legend{
+    margin: 0px 240px;
+    color: rgb(106, 114, 255);
 }
 
 
+.BD{
+    display: flex;
+    margin: 10px 200px ;
+}
+
+.BD legend{
+    color: rgb(106, 114, 255);
+}
 
 
+.date input{
+    width: 92%;
+    height: 45px;
+    margin-right: 290px;
+    border:1px solid rgb(106, 114, 255);
+    border-radius: 3px;
+    padding: 0px 5px;
+    
+}
 
+
+.gender select{
+    width: 103%;
+    height: 45px;
+    margin-right: 300px;
+    border-color: rgb(106, 114, 255);
+    border-radius: 3px;
+    padding: 0px 5px;
+}
+
+.addres{
+    margin: 5px 200px;
+}
+.addres legend{
+    color: rgb(106, 114, 255);
+}
+
+.addres input{
+    width: 96%;
+    height: 45px;
+    padding: 0px 5px;
+    border: 1px solid rgb(106, 114, 255) ;
+    border-radius: 3px;
+}
+
+.education{
+    margin: 10px 200px ;
+}
+.education legend{
+    color: rgb(106, 114, 255);
+}
+
+.education select{
+    width: 97%;
+    height: 45px;
+    border-color:rgb(106, 114, 255) ;
+    border-radius: 3px;
+    padding: 0px 5px;
+    
+}
+
+
+.logo img{
+    margin: 150px 0px 0px 550px;
+    width: 120px;
+    height: 75px;
+    
+}
+.logo h3{
+    margin: 0px 0px 0px 550px;
+}
+.Login{
+    margin: 0px 0px 0px 400px;
+    
+
+}
+.Login button{
+    width: 25%;
+    height: 30px;
+    border: none;
+    margin: 10px 5px;
+    border-radius: 3px;
+    
+    
+}
+.Login a{
+    text-decoration: none;
+    color: black;
+}
+.Cbtn{
+    background-color: rgba(138, 140, 139, 0.5)
+}
+.Lbtn{
+    background-color: rgba(138, 140, 139, 0.5)
+}
+
+.info{
+    margin: 0px 0px 0px 400px;
+    
+}
+.info input{
+    padding: 0px 10px;
+    width: 50%;
+    height: 30px;
+    
+}
+.info button{
+    width: 52.7%;
+    height: 30px;
+    background-color: rgb(106, 114, 255);
+    border: none;
+    border-radius: 3px;
+}
